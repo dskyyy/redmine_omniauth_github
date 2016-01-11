@@ -8,7 +8,7 @@ It was more than inspired by redmine_omniauth_google see https://github.com/twin
 Choose folder /plugins, make command
 
 ```console
-git clone https://github.com/ares/redmine_omniauth_github.git
+git clone https://github.com/jeromelebleu/redmine_omniauth_github.git
 ```
 
 Update gems and restart rails server.
@@ -20,7 +20,7 @@ To make possible to authenticate via Github you must first to register applicati
 * Go to the [registration](https://github.com/settings/applications/new) link.
 * When registering specify application name, for example, Redmine Oauth Githu.
 * Homepage URL is the url of your redmine installation
-* Callback URL is the same url with "/oauth2callback_github" appended, e.g. "http://example.net/oauth2callback_github"
+* Callback URL is the same url with "/oauth/github/callback" appended, e.g. "http://example.net/oauth/github/callback"
 * Press the button "Register application".
 
 The registrations is complete.
